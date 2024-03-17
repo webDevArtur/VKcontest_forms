@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
+# React-приложение для определения возраста человека
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Это приложение разработано в рамках задания по созданию React-приложения с использованием VKUI.
 
-Currently, two official plugins are available:
+## Описание
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Приложение состоит из двух частей:
 
-## Expanding the ESLint configuration
+1. Блок с кнопкой и текстовым полем. По нажатию на кнопку происходит запрос к [catfact.ninja](https://catfact.ninja/fact), полученный факт записывается в текстовое поле, а курсор устанавливается после первого слова.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. Форма с текстовым полем и кнопкой отправки. Пользователь вводит свое имя в текстовое поле. По истечении 3 секунд после ввода имени или при отправке формы выполняется запрос к API для определения возраста человека по имени. Полученный возраст отображается под текстовым полем.
 
-- Configure the top-level `parserOptions` property like this:
+## Ссылка на проект
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+https://v-kcontest-forms.vercel.app/
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Особенности
+
+- Предотвращение дублирующих запросов: запрос с таким же именем не отправляется повторно.
+- Прерывание запроса, чей ответ уже не нужен: запрос может быть прерван, если он был отправлен до завершения предыдущего запроса.
+
+## Дополнительные функции
+
+2. Валидация поля ввода имени: имя может состоять только из букв.
+
+## Технологии и инструменты
+
+- React
+- TypeScript
+- Axios
+
