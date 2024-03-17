@@ -2,6 +2,10 @@
 
 Это приложение разработано в рамках задания по созданию React-приложения с использованием VKUI.
 
+## Ссылка на проект
+
+https://v-kcontest-forms.vercel.app/
+
 ![image](https://github.com/webDevArtur/VKcontest_forms/assets/141954990/8a52d775-e59c-42d9-9ad3-78b3f2721ac9)
 
 
@@ -16,10 +20,6 @@
 3. Адаптивность
 
 ![image](https://github.com/webDevArtur/VKcontest_forms/assets/141954990/84cff177-79e9-4e43-98a1-820651e908cd)
-
-## Ссылка на проект
-
-https://v-kcontest-forms.vercel.app/
 
 ## Особенности
 
