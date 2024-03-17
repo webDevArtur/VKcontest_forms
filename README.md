@@ -6,8 +6,8 @@
 
 https://v-kcontest-forms.vercel.app/
 
-![image](https://github.com/webDevArtur/VKcontest_forms/assets/141954990/8a52d775-e59c-42d9-9ad3-78b3f2721ac9)
 
+![image](https://github.com/webDevArtur/VKcontest_forms/assets/141954990/8a52d775-e59c-42d9-9ad3-78b3f2721ac9)
 
 ## Описание
 
