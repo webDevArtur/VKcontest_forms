@@ -15,8 +15,7 @@
 
 3. Адаптивность
 
-   ![image](https://github.com/webDevArtur/VKcontest_forms/assets/141954990/e3824327-8ca6-41f2-89d0-881db10da3e2)
-
+![Uploading image.png…]()
 
 ## Ссылка на проект
 
